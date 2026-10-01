@@ -35,7 +35,7 @@ function Hero() {
         <div className="hero__visual">
           <img
             className="hero__photo"
-            src="/hero-visual.svg"
+            src={`${import.meta.env.BASE_URL}hero-visual.svg`}
             alt="A digital studio homepage and interface shown across an open browser window"
             fetchPriority="high"
           />
